@@ -1,0 +1,624 @@
+.changeZip {
+	color: #85c485;
+	text-decoration: underline;
+	cursor: pointer;
+	display: inline;
+}
+
+.updateZipBox {
+	display: none;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+
+h5 {
+	text-align: left;
+	margin: 0;
+	padding: 25px 0;
+}
+
+.byoTopBox {
+	width: 95%;
+	max-width: 1200px;
+	margin: 0 auto 0px auto;
+}
+
+.buildBG {
+	background: #fff;
+	width: 100%;
+	margin: 20px 0 0 0;
+}
+
+.buildResults {
+	width: 95%;
+	max-width: 1200px;
+	margin: 0 auto 30px auto;
+	background:#fff;
+}
+
+.byoMSRPDisclaimer {
+	text-align: center;
+	padding-bottom: 8px;
+	font-size: 1rem;
+}
+
+.byoMSRPStar {
+	font-size: 145%;
+	position: relative;
+	top: 4px;
+	left: -1px;
+}
+
+.buildNavBox {
+	width: 95%;
+	max-width: 1200px;
+	margin: 0 auto;
+	border-top: 2px solid #474747;
+	border-bottom: 2px solid #474747;
+}
+
+.buildNav {
+	width: 14.285714285714286%;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	font-size: 1.8rem;
+	display: block;
+	float: left;
+	text-align: center;
+	padding: 30px 0 30px 0;
+	margin-top: -2px;
+	color: #a7a7a7;
+}
+
+	.nextNav {
+		background: #eee;
+		border-top: 2px solid #474747;
+	}
+	
+	.nextNavOn,.startOver:hover {
+		background: #85c485;
+		color: #000;
+		cursor: pointer;
+	}
+
+.buildNavOn {
+	border-top: 2px solid #85c485;
+	color: #85c485;
+}
+
+	.buildNavOn:hover { color: #a7a7a7; }
+
+	.byoNext:hover, .nextNav:hover {
+		background-color: #fff;
+		color: #85c485;
+		border-top: 2px solid #474747;
+		border-bottom: none;
+	}
+
+	.pdfOptions:hover {
+		background-color: #fff;
+		color: #85c485;
+		border: 1px solid #85c485;
+	}
+
+
+	.startOver {
+		border-top: 2px solid #85c485;
+		background: #616161;
+		color: #fff;
+	}
+
+.locateOR {
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	background: #178bbc;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 8px;
+	position: relative;
+	top: 18px;
+	left: 30px;
+}
+
+.foundYou {
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+}
+
+.locateLeft {
+	float: left;
+	background-color: #fff;
+	width: 50%;
+}
+
+.locateFields {
+	padding: 2% 0% 20% 5%;
+	border-top: 10px solid #178bbc;
+}
+
+.locateRight {
+	width: 50%;
+	float: left;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-image: url("../nav/locateNext.svg");
+	background-position: 50%;
+	background-size: 13%;
+	height: 340px;
+	cursor: pointer;
+}
+
+
+.contentWhite {
+	padding-top: 0;
+}
+
+.centerContainer {
+	padding-top: 60px;
+}
+
+.resultsInfo {
+	float: left;
+	width: 28%;
+}
+
+.resultsInfoBox {
+	padding: 20px;
+	border-bottom: 5px solid #ccc;
+	background: #eee;
+	color: #000;
+}
+
+.resultsPriceBox {
+	background: #eee;
+	padding: 5px 15px 10px 15px;
+}
+
+	.info-price {
+		color: #000 !important;
+		font-size: 1.6rem !important;
+	}
+
+.resultsExt {
+	width: 72%;
+	float: left;
+	min-height: 230px;
+}
+
+	.pleasePickExt, .pleasePickInt {
+		margin-top: 80px;
+		text-align: left;
+		color: #4a4a4a;
+		font-family: 'Raleway', sans-serif;
+		font-size: 3rem;
+	}
+
+	.pleasePickInt { margin-top: 0; text-align: center; }
+
+.resultsExt img { width: 100%; }
+
+.byo_decorExtBox, .byo_decorIntBox {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+	border: 1px solid #979797;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+
+	.byo_decorExtBox:last-child, .byo_decorIntBox:last-child {
+		margin-right: 0;
+	}
+
+.byo_decorIntBox {
+	width: 18%;
+	margin-right: 2.5%;
+	background: #fff;
+}
+
+.byo_decorExt {
+	padding: 5%;
+}
+
+.byo_decorInt {
+	padding: 10%;
+}
+
+.decorExt img { margin: 0; width: 100%; float: none; }
+
+.byo_decorExtName, .byo_decorIntName {
+	float: left;
+	margin-top: 4px;
+	padding-right: 25px; /* to accommodate yellow circle */
+}
+
+.byo_nameAndSelect {
+	border-bottom: 1px solid #979797;
+	padding: 5px 10px 8px 10px;
+	font-size: 1.4rem;
+	position: relative;
+}
+
+
+
+.byoSelect {
+	position: absolute;
+	right: 5px;
+	top: 3px;
+	width: 20px;
+	height: 20px;
+	border-radius: 15px;
+	border: 1px solid #979797;
+	margin-top: 2px;
+}
+
+	.byoSelectOn {
+		background:  #85c485;
+	}
+	
+.byoBrand {
+	text-transform: uppercase;
+	color: #9f9f9f;
+	font-family:'Avenir LT W01 35 Light',Arial;
+	letter-spacing: 2px;
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+
+.decorTitle, .woodTitle { 
+	position: absolute; top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	font-size: 1.8rem;
+}
+
+.woodTitle {
+	left: 41%;
+}
+
+.interiorChoiceBG {
+	background-color: #fff !important;
+	background-image: url("../nav/interiorChoiceBG.png") !important;
+	background-repeat: repeat-y !important;
+	background-size: contain !important;
+}
+
+.startingAt {
+	font-size: 1.5rem;
+	display: inline;
+	letter-spacing: normal;
+	color: #fff;
+	text-transform: none;
+	padding-left: 15px;
+}
+
+.chosenInfo {
+	color: #178bbc;
+	font-size: 1.4rem;
+	margin: 2px 0;
+	line-height: 1.4em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+	.chosenInfo span { color: #000; }
+
+.byoNext { display: none; font-family:'Avenir LT W01 35 Light',Arial;}
+
+.byoFPs {
+	width: 50%;
+	float: left;
+}
+
+.byoFP { width: 100%; cursor: pointer;border: 1px solid #979797; margin-bottom: 20px; }
+.fpInfo { float: right; width: 48%; margin-left: 2%; }
+.fpImage { margin: 15px 0; width: 100%; padding: 0 2%; }
+
+.sPanelsBuild {
+	position: relative;
+	min-width: 100%;
+	margin-left: 0px;
+	float: none;
+}
+
+.specPanel { position: relative; margin-bottom: 15px; }
+
+.specTable { min-width: 100%; }
+
+.resultsDecorBox {
+	width: 25%;
+	float: left;
+	padding: 1.3%;
+}
+
+.resultsExtBox {
+	width: 75%;
+	float: left;
+	padding: 3%;
+}
+
+
+.chosenInt {
+	float: left;
+	width: 35%;
+	margin: 0% 2% 6% 8%;
+}
+
+.roundInt { border-radius: 100%;  }
+
+.chosenFP {
+	width: 95%;
+	margin: 20px auto;
+}
+
+.allOptions {
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+.optLeft {
+	float: left;
+	width: 48%;
+	margin-right: 4%;
+	font-family: 'Raleway', sans-serif;
+}
+
+.optRight {
+	float: left;
+	width:48%;
+	font-family: 'Raleway', sans-serif;
+}
+
+.opt {
+	line-height: 1.3em;
+	margin-bottom: .5em;
+	font-family: 'Raleway', sans-serif;
+}
+
+	.opt label {
+		display: inline;
+		color: #000;
+		margin: 0;
+		font-size: 1.4rem;
+	}
+
+.optOff {
+	opacity: .4;
+}
+
+.optPrice {
+	font-size: 80%;
+	color: #666;
+}
+
+.configuredPrice {
+	font-size: 2rem;
+}
+
+.allDealers {
+	margin: 0px auto;
+	width: 95%;
+	max-width: 1200px;
+}
+
+.dealerAndInventory {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	padding: 20px 0;
+}
+
+.dealerLeft {
+	width: 35%;
+	margin-right: 5%;
+	float: left;
+	border-right: 1px solid #999;
+}
+
+.testDrive {
+	background: #85c485;
+	border: 2px solid #85c485;
+	padding: 15px;
+	font-size: 2rem;
+	display: block;
+	width: 95%;
+	color: #000;
+	line-height: 1.2em;
+	margin-top: 15px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+	.testDrive:hover {
+		background: #FFF;
+		border: 2px solid #85c485;
+	}
+
+.inventoryRight {
+	width: 50%;
+	float: left;
+}
+
+.otherDealers, .notYourDealer {
+	display: none;
+}
+
+.otherDealersDivider {
+	background: #999;
+	text-align: center;
+	width: 100%;
+	padding: 8px 0;
+	color: #fff;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	position: relative;
+	cursor: pointer;
+	margin: 20px auto;
+}
+
+h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.6rem;
+	font-weight: normal;
+}
+
+.summaryIntro {
+	background: #fff;
+	max-width: 1200px;
+	width: 95%;
+	margin: 0 auto;
+	padding: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2rem;
+	line-height: 1.5em;
+	padding: 40px 40px 45px 40px;
+	border-top: 2px solid #fff;
+	background-size: 58%;
+	background-repeat: no-repeat;
+	background-position: 97% 50%;
+	min-height: 300px;
+}
+
+.summaryIntro span {
+	color: #161616;
+	font-size: 3.5rem;
+	display: block;
+	line-height: 5rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.summaryLeft .fpInfo { float: none; width: 100%; margin: 0;}
+.summaryLeft .sPanels { margin: 0; }
+.summaryLeft {
+	width: 420px;
+	float: left;
+	padding-bottom: 20px;
+}
+
+	.summaryLeft .chosenInfo { color: #000; }
+	.summaryLeft .chosenInfo span { color: #666; }
+
+.summaryRight {
+	margin-left: 445px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.summaryRight .resultsExt {
+	width: 100%;
+}
+
+.summaryLeft .specPanel {
+	width: 100%;
+	position: static;
+	background: #fff;
+	display: block;
+	margin: 30px 0;
+}
+
+.summaryLabel  {
+	margin: 25px 0 4px 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.extName {
+	margin-top: 0;
+}
+
+.allDoneButtons {
+	margin: 45px auto 0 auto;
+}
+
+.allDoneButton, .summaryStartOver {
+	display: inline-block;
+	font-size: 1.8rem;
+	padding: 8px 20px;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 8px;
+	background: #85c485;
+	border: 1px solid #85c485;
+	letter-spacing: 1px;
+	color: #000;
+}
+
+
+	.allDoneButton:hover {
+		background: #fff;
+		color: #161616;
+		border: 1px solid #85c485;
+	}
+
+
+.summaryStartOver {
+		background: #616161;
+		color: #fff;
+		border: 1px solid #262626;
+}
+
+	.summaryStartOver:hover {
+		color: #161616;
+		background: #eee;
+	}
+
+.byoPrintHead {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	color: #000;
+	border-bottom: 1px solid #000;
+	padding-bottom: 3px;
+	display: none;
+}
+
+.byoPrintFloorplan, .chosenExtPrint {
+	display: none;
+}
+
+.alert {
+	font-family: 'Raleway', sans-serif;
+	color: #178bbc;
+	text-align: left;
+	padding: 35px 35px 0 35px;
+	font-size: 2rem;
+	line-height: normal;
+	margin-right: 30px;
+}
+
+
+label {
+	display: block;
+	margin: 15px 0 8px 0;
+	color: #000;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+
+	.or { font-size: 2.8rem; padding-top: 30px; }
+
+input[type=text],input[type=email] {
+	padding: 10px 10px;
+	font-size: 20px;
+	font-size: 2rem;
+	color: #000;
+	background: #85c485;
+	background: rgba(133,196,133,.4);
+	width: 95%;
+	border: none;
+}
+
+
+@media all and (max-width: 1050px) {
+	h5 { font-size:2.8rem; letter-spacing: 1.5px; }
+	.byo_decorExtName, .byo_decorIntName { font-size: 85%; }
+	.buildNav { letter-spacing: 0; }
+	.byoFP { width: 95%; }
+}
+
+@media all and (max-width: 768px) {
+	.resultsDecorBox { float: none; width: 45%; }
+}
+
+

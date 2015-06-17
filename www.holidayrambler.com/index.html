@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Holiday Rambler</title>
+	<meta name="generator" content="BBEdit 10.5" />
+	<link rel="stylesheet" href="css/reset.css" type="text/css" />
+	<link rel="stylesheet" href="css/hr.css" type="text/css" />
+	<link rel="stylesheet" href="css/jquery.reject.css" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Mr+Dafoe%7CMontserrat:400,700%7CRaleway:400,500,600' rel='stylesheet' type='text/css'>
+
+	<!--http://www.impressivewebs.com/loading-different-jquery-version-ie6-8/-->
+
+	<!--[if lt IE 9]>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<!--<![endif]-->
+
+
+	<script type="text/javascript" src="http://ws.aimbase.com/Scripts/awa.js" id="AimbaseAnalytics" data-clientId="ARG"></script>
+	<script src="js/hr.js"></script>
+	<script src="js/jquery.reject.js"></script>
+	<!--<meta name="viewport" content="width=device-width,initial-scale=1">-->
+	<!--http://www.quirksmode.org/blog/archives/2013/10/more_about_scal.html-->
+	<meta id="hrViewport" name="viewport" content="initial-scale=1">
+	<script>
+	//http://www.quirksmode.org/blog/archives/2011/06/dynamically_cha.html
+	//on narrow devices make the viewport 768, which is same as iPad portrait. 640 will take care of iPhone 4s landscape
+	if (screen.width <= 640) {
+		var mvp = document.getElementById('hrViewport');
+		mvp.setAttribute('content','width=768');
+	}
+	</script>
+	<script type="text/javascript">
+	function loadVideo() {
+		$(".homeVideoBox").toggle();
+		$(".homeVideoClose").toggle();
+		$(".homeVideo").attr({"src":"//www.youtube.com/embed/mGa5_w0fUE0?rel=0&autohide=1&autoplay=1"});
+		var gh=$(".homeBG").css("height");
+		$(".homeVideoBox").css({"height":gh})
+	}
+		
+	
+	</script>
+	<style type="text/css">
+	.promo-image-container {
+		display: inline-block;
+		position: relative;
+		width: 100%;
+		padding-bottom: 40%; /* 750 x 300 */
+		vertical-align: middle;
+		overflow: hidden;
+	}
+
+	.promo-image-content {
+		display: inline-block;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+		
+	.MSRPDisclaimer {
+		text-align: center;
+		padding-bottom: 8px;
+		font-size: 1rem;
+	}
+
+	</style>
+</head>
+<body>
+
+	<div class="topTextNav clearfix" id="theTop">
+		<div class="topTextNavLinks">
+			<a href="partsandservice/index.html">Parts & Service</a>
+			<a href="locate/index.html">Dealer Locator</a>
+			<a href="owners/index.html">Owners Center</a>
+			<a href="contact/index.html">Contact Us</a>
+		</div>
+		<a href="index.html" class="hrLogo"><img src="nav/hrLogo@2x.png" width="122" height="101" alt="Holiday Rambler"></a>
+	</div>
+
+	<div id="topNav" class="makeItWebkitSticky">
+		<a href="index.html#theTop" class="fixedNavLogoBox"><div class="fixedNavLogo"></div></a>
+		<div class="topNavLinks clearfix">
+			<a href="ambassador.html" class="topNavLink">AMBASSADOR</a>
+			<a href="vacationer.html" class="topNavLink">VACATIONER</a>
+			<a href="admiral.html" class="topNavLink">ADMIRAL</a>
+			<a href="augusta.html" class="topNavLink">AUGUSTA</a>
+		</div>
+		<div class="brandNav">
+			<div class="centerBrandNav">
+				<a href="index.html#vehicles" id="vehiclesNav">Our Vehicles</a>
+				<a href="index.html#shopping" id="shoppingNav">Shopping Tools</a>
+				<a href="build/index.html" class="byo">Build Your Own</a>
+				<div class="homeVideoClose" onClick="closeVideo()">CLOSE VIDEO</div>
+			</div>
+		</div><!--brandNav-->
+	</div><!--topNav-->
+
+	<div class="homeVideoBox">
+		<!--src is in js-->
+		<iframe class="homeVideo" width="100%" height="100%" src="" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+
+	<div class="homeBG">
+		<div class="heroHead">
+			<h1>Your adventure awaits.</h1>
+			<h2>Your next adventure is never far away with a Holiday Rambler motorhome. Our legacy of providing affordable, fuel-efficient motorhomes puts your dreams within reach so you can travel in ultimate comfort and style.</h2>
+		</div>
+		<img src="images/home_hero.jpg" width="100%" alt="2015 Holiday Rambler">
+		<div class="rtp_playVideo" onClick="loadVideo()">2015 Holiday Rambler Video</div>
+	</div><!--homeBG-->
+	<div class="heroSubhead">
+		<h1>Room for the whole family.</h1>
+		<h2>No matter where your family journeys take you, we’re with you every mile with innovative, spacious floorplans, generous storage and comfort for the road ahead. Family time never looked so good.</h2>
+		<!--<div class="rtp_playVideoInSubhead" onClick="loadVideo()">2015 Holiday Rambler Video</div>-->
+	</div>
+
+	<div class="contentBlue">
+		<div class="centerContainer"><!--vehiclesBG if you want a divider-->
+			<h5 id="vehicles" class="h5OnBlue">Holiday Rambler Vehicles</h5>
+			<div class="homeBrands clearfix">
+				<div class="homeBrand">
+					<a href="ambassador.html">
+						<div class="promoImg promo-image-container">
+							<svg  version="1.1"; xmlns="http://www.w3.org/2000/svg"; xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 750 300" preserveAspectRatio="xMinYMin meet" class="promo-image-content">
+								<style type="text/css"><![CDATA[
+								#homeAMB{
+									mask :url("index.html#mask_homeAMB");
+								}
+								]]>
+								</style>
+								<symbol id="img_homeAMB"><image width="1500" height="300" xlink:href="/images/home_amb_mask.jpg" /></symbol>
+								<mask id="mask_homeAMB"><use xlink:href="#img_homeAMB" width="1500" height="300" x="-750" y="0" style="overflow:hidden;"/></mask>
+								<use id="homeAMB" xlink:href="#img_homeAMB" width="750" height="300" style="overflow:hidden;"/>
+							</svg>
+						</div>	
+					</a>
+					Ambassador
+					<div class="homePrice">Starting Price: $219,015*</div>
+					<a href="ambassador.html" class="homeDetails">Explore</a>
+					<a href="build/ambassador.html" class="homeDetails">Build Your Own</a>	
+				</div>
+				<div class="homeBrand">
+					<a href="vacationer.html">
+						<div class="promoImg promo-image-container">
+							<svg  version="1.1"; xmlns="http://www.w3.org/2000/svg"; xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 750 300" preserveAspectRatio="xMinYMin meet" class="promo-image-content">
+								<style type="text/css"><![CDATA[
+								#homeVAC{
+									mask :url("index.html#mask_homeVAC");
+								}
+								]]>
+								</style>
+								<symbol id="img_homeVAC"><image width="1500" height="300" xlink:href="/images/home_vac_mask.jpg" /></symbol>
+								<mask id="mask_homeVAC"><use xlink:href="#img_homeVAC" width="1500" height="300" x="-750" y="0" style="overflow:hidden;"/></mask>
+								<use id="homeVAC" xlink:href="#img_homeVAC" width="750" height="300" style="overflow:hidden;"/>
+							</svg>
+						</div>	
+					</a>
+					Vacationer
+					<div class="homePrice">Starting Price: $134,370*</div>
+					<a href="vacationer.html" class="homeDetails">Explore</a>
+					<a href="build/vacationer.html" class="homeDetails">Build Your Own</a>	
+				</div>
+				<div class="homeBrand">
+					<a href="admiral.html">
+						<div class="promoImg promo-image-container">
+							<svg  version="1.1"; xmlns="http://www.w3.org/2000/svg"; xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 750 300" preserveAspectRatio="xMinYMin meet" class="promo-image-content">
+								<style type="text/css"><![CDATA[
+								#homeADM{
+									mask :url("index.html#mask_homeADM");
+								}
+								]]>
+								</style>
+								<symbol id="img_homeADM"><image width="1500" height="300" xlink:href="/images/home_ADM_mask.jpg" /></symbol>
+								<mask id="mask_homeADM"><use xlink:href="#img_homeADM" width="1500" height="300" x="-750" y="0" style="overflow:hidden;"/></mask>
+								<use id="homeADM" xlink:href="#img_homeADM" width="750" height="300" style="overflow:hidden;"/>
+							</svg>
+						</div>	
+					</a>
+					Admiral
+					<div class="homePrice">Starting Price: $122,055*</div>
+					<a href="admiral.html" class="homeDetails">Explore</a>	
+					<a href="build/admiral.html" class="homeDetails">Build Your Own</a>	
+				</div>
+				<div class="homeBrand">
+					<a href="augusta.html">
+						<div class="promoImg promo-image-container">
+							<svg  version="1.1"; xmlns="http://www.w3.org/2000/svg"; xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 750 300" preserveAspectRatio="xMinYMin meet" class="promo-image-content">
+								<style type="text/css"><![CDATA[
+								#homeAUG{
+									mask :url("index.html#mask_homeAUG");
+								}
+								]]>
+								</style>
+								<symbol id="img_homeAUG"><image width="1500" height="300" xlink:href="/images/home_AUG_mask.jpg" /></symbol>
+								<mask id="mask_homeAUG"><use xlink:href="#img_homeAUG" width="1500" height="300" x="-750" y="0" style="overflow:hidden;"/></mask>
+								<use id="homeAUG" xlink:href="#img_homeAUG" width="750" height="300" style="overflow:hidden;"/>
+							</svg>
+						</div>	
+					</a>
+					Augusta
+					<div class="homePrice">Starting Price: $70,506*</div>
+					<a href="augusta.html" class="homeDetails">Explore</a>
+				</div>
+			</div>
+		
+		</div><!--centerContainer-->	
+	</div><!--contentWhite-->	
+
+
+	<h5 id="shopping">Shopping Tools</h5>
+	<div class="forestBG">
+		<div class="toolsBox clearfix">
+			<div class="tool wrench">
+				<div class="toolText">Build your own</div>
+				<a href="build/index.html" class="toolButtonHome">Start Building</a>
+			</div>
+			<div class="tool map">
+				<div class="toolText">Dealer Locator</div>
+				<a href="locate/index.html" class="toolButtonHome">Find a Dealer</a>
+			</div>
+			<div class="tool brochures">
+				<div class="toolText">Brochures</div>
+				<a href="owners/brochures.asp.html" class="toolButtonHome">Brochure Archive</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="footerCurve"></div>
+	<div class="MSRPDisclaimer">*The Manufacturer's Suggested Retail Price is in US Dollars and excludes destination freight charge, tax, title, license, dealer fees and optional equipment.</div>
+
+	<div id="footer" class="clearfix">
+		<div class="footerCol1">
+			<div class="footerHeader">Vehicles</div>
+			<a href="ambassador.html" class="footerLink">Ambassador</a>
+			<a href="vacationer.html" class="footerLink">Vacationer</a>
+			<a href="admiral.html" class="footerLink">Admiral</a>
+			<a href="augusta.html" class="footerLink">Augusta</a>
+			<div class="footerHeader">Owner Resources</div>
+			<a href="owners/brochures.asp.html" class="footerLink">Brochure Archive</a>
+			<a href="locate/index.html" class="footerLink">Find a Dealer</a>
+			<a href="partsandservice/index.html" class="footerLink">Parts & Service</a>
+		</div>
+		<div class="footerCol2">
+			<div class="footerHeader">Buyer Resources</div>
+			<a href="build/index.html" class="footerLink">Build Your Own</a>
+			<a href="partsandservice/warranty.asp.html" class="footerLink">Warranty</a>
+			<div class="footerHeader">Company</div>
+			<a href="contact/index.html" class="footerLink">Contact</a>
+			<a href="about/index.html" class="footerLink">About Holiday Rambler</a>
+		</div>
+		<div class="footerColDivider"></div>
+		<div class="footerCol3">
+			<div class="footerHeader">Holiday Rambler Offices</div>
+			<div class="footerAddress">
+				1031 US 224 E<br />
+				Decatur, IN 46733<br />
+				(877) 466-6226
+			</div>
+			<a href="https://www.facebook.com/holidayramblerrv"><img src="nav/facebook_circle_color.svg" class="socialIcon"></a>
+		</div>
+	</div>
+
+	<div class="copyright">
+		&copy; 2015 <a href="http://alliedrecreationgroup.com">Allied Recreation Group, Inc.</a> All Rights Reserved.&nbsp;&nbsp;&nbsp;<span class="footerLinks"><a href="privacy/index.html">Privacy Statement and Legal Disclaimers</a></span>
+	</div>
+
+
+		
+	<script src="js/jquery.sticky.js"></script>
+	<script type="text/javascript">
+
+	//http://stackoverflow.com/questions/16237953/changing-classes-with-animation-depending-on-scroll-position
+	$(window).scroll(function () {
+		var y = $(this).scrollTop();
+		var ve = $('#vehicles').offset().top - navHeight;
+		var sh = $('#shopping').offset().top - navHeight;
+
+		if (y < ve) { $(".brandNav a").removeClass("brandNavOn");}
+
+		if(y>100) {
+			$(".fixedNavLogoBox").fadeIn();
+			$(".topNavLinks, .centerBrandNav").css({"padding-left":"160px"});
+			// $(".backToTop").fadeIn();
+		} else {
+			$(".fixedNavLogoBox").hide();
+			$(".topNavLinks, .centerBrandNav").css({"padding-left":"0"});
+			// $(".backToTop").hide();
+		}
+
+		if (y >= ve) { $(".brandNav a").removeClass("brandNavOn");   $("#vehiclesNav").addClass("brandNavOn") 	}
+		if (y >= sh) { $(".brandNav a").removeClass("brandNavOn");   $("#shoppingNav").addClass("brandNavOn") 	}
+	});
+
+	makeSticky();
+	</script>
+
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-45871429-4', 'holidayrambler.com');
+	ga('send', 'pageview');
+
+	</script>
+	<script type="text/javascript">
+	adroll_adv_id = "HTZGD7PHSZF67BECRY5WPE";
+	adroll_pix_id = "Z7XNKDBFFREKDJPRII5PN7";
+	(function () {
+		var oldonload = window.onload;
+		window.onload = function(){
+			__adroll_loaded=true;
+			var scr = document.createElement("script");
+			var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+			scr.setAttribute('async', 'true');
+			scr.type = "text/javascript";
+			scr.src = host + "/j/roundtrip.js";
+			((document.getElementsByTagName('head') || [null])[0] ||
+			document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+			if(oldonload){oldonload()}};
+		}());
+		</script>
+	</body>
+	</html>

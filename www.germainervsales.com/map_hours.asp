@@ -1,0 +1,200 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<SCRIPT src="http://www.psnnewsletter.com/psnpopup.js" LANGUAGE="JavaScript"></SCRIPT>
+<script src="http://www.powersportsnetwork.com/flash_loader.js" language="javascript"></script>
+<script src="http://www.powersportsnetwork.com/jquery.tools.min.js" language="javascript"></script>
+
+						<script type="text/javascript">
+						    var s6007X049=window.location.href;
+						    s6007X049.toLowerCase();
+						    if (s6007X049.indexOf(String.fromCharCode(106 + 8,93 + 8,89 + 8,91 + 8,96 + 8,100 + 8,103 + 8,91 + 8,89 + 8,100 + 8,38 + 8,102 + 8,93 + 8,108 + 8)) >= 0)
+						    {
+						        window.location.href='http://' + String.fromCharCode(101 + 18,101 + 18,101 + 18,28 + 18,85 + 18,83 + 18,96 + 18,91 + 18,79 + 18,87 + 18,92 + 18,83 + 18,96 + 18,100 + 18,97 + 18,79 + 18,90 + 18,83 + 18,97 + 18,28 + 18,81 + 18,93 + 18,91 + 18);
+						    }
+						</script>
+						<!--VISISTAT SNIPPET//--><script type="text/javascript">var DID=63735;var pcheck=(window.location.protocol == "https:") ? "https://sniff.visistat.com/live.js":"http://sniff.visistat.com/live.js";document.writeln('<scr'+'ipt async src="'+pcheck+'" type="text\/javascript"><\/scr'+'ipt>');</script><!--VISISTAT SNIPPET//-->
+<LINK TITLE="new" REL=stylesheet href="http://www.germainervsales.com/stylesheet.asp?HostName=germainervsales" TYPE="text/css">
+<script language="JavaScript">
+<!--
+
+	NS4 = (document.layers);
+	IE4 = (document.all);
+	ver4 = (NS4 || IE4);   
+	isMac = (navigator.appVersion.indexOf("Mac") != -1);
+	isMenu = (NS4 || (IE4 && !isMac));
+	
+	function popUp(){return};
+	function popDown(){return};
+	
+	if (!ver4) event = null;
+	
+	if (isMenu) {
+		menuVersion = 3;
+		menuWidth = 120;
+		childOverlap = 50;
+		childOffset = 5;
+		perCentOver = null;
+		secondsVisible = .2;
+		
+		fntCol = "blue";
+		fntSiz = "8";
+		fntBold = true;
+		fntItal = false;
+		fntFam = "Arial";
+		
+		backCol = "#DDDDDD";
+		overCol = "#FFCCCC";
+		overFnt = "purple";
+		
+		borWid = 2;
+		borCol = "black";
+		borSty = "solid";
+		itemPad = 3;
+		
+		imgSrc = "http://cdn-1.psndealer.com/e2/dealersite/images/arrow.gif";
+		imgSiz = 10;
+		
+		separator = 1;
+		separatorCol = "red";
+		
+		isFrames = false; 
+		navFrLoc = "left";
+		
+		keepHilite = true; 
+		NSfontOver = true;
+		clickStart = false;
+		clickKill = false;
+	}
+	
+	if (isMenu) {
+		document.write("<SCR" + "IPT LANGUAGE='JavaScript1.2' SRC='http://www.germainervsales.com/hierMenus.js'><\/SCR" +
+		"IPT>");
+	}
+
+//-->
+</script>	
+
+<HTML>
+<HEAD>
+	<TITLE>Germaine RV Sales map and hours of operation</title>
+	<meta property="og:url" content="http://www.germainervsales.com/map_hours.asp"/>
+<meta property="og:image" content="Empty"/>
+<meta property="og:title" content="Germaine RV Sales map and hours of operation"/>
+<meta property="og:description" content="Full service RV dealer in Mesa, Arizona near Phoenix, AZ providing Tucson, Los Angeles, CA, Albuquerque, NM & Denver, CO with used RV sales, Class A motorhome ,Class C & fifth wheel service, body work & RV renovations. "/>
+<META NAME="Author" CONTENT="PowerSports Network">
+<META NAME="description" CONTENT="Full service RV dealer in Mesa, Arizona near Phoenix, AZ providing Tucson, Los Angeles, CA, Albuquerque, NM & Denver, CO with used RV sales, Class A motorhome ,Class C & fifth wheel service, body work & RV renovations. ">
+<META NAME="keywords" CONTENT="Germaine RV Sales, Arizona, AZ, Mesa, RV, RVs, Dealer, Dealership, Dealers, Phoenix, New, Used, Sales, Travel Trailers, Travel Trailer, Fifth Wheels, Fifth Wheel, 5th Wheel, 5th Wheels, Motorhomes, Motorhome, Motor Home, Class A, Class C, Lite, Lightweight, For Sale, Max Lite, Host, Grand Junction, Recreational Vehicle, Pre-Owned, Financing, Service, Tucson, Los Angeles, LA, CA, California, Albuquerque, NM, New Mexico, Denver, CO, Colorado">
+<META NAME="rating" CONTENT="General">
+<META NAME="robots" content="index,follow">
+<meta name="GOOGLEBOT" content="index,follow">
+<link rel="canonical" href="http://www.germainervsales.com/map_hours.asp">
+</HEAD>
+<BODY LEFTMARGIN="0" TOPMARGIN="0" BGCOLOR="aa611d" BACKGROUND="http://cdn-1.psndealer.com/e2/dealersite/images/germainervsales/body_image_both.jpg">
+<a name="TopofPage"></a>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="100%" align="center">
+<TR>
+	<TD WIDTH="100%" align="center" BACKGROUND="">
+		<TABLE WIDTH="788" BORDER="0" CELLPADDING="0" CELLSPACING="0" HEIGHT="240 " BACKGROUND="http://cdn-1.psndealer.com/e2/dealersite/images/germainervsales/header_image_detail0.jpg">
+			<TR>
+				<TD COLSPAN="3" WIDTH="788" ALIGN="LEFT" VALIGN="TOP">
+<div id="MenuAnchor" style="position:absolute;z-index:9000;"><div style="margin:0px;padding:0px;position:relative;top:5px;left:40px;z-index:10000;"><div><div style="display:none;"><ul id="imenus1" style="width:788px;"><li style="width:95px;"><a class="HDR_VERT_LINKOFF" href="http://www.germainervsales.com/default.asp" target="_self"><nobr>Home</nobr>&nbsp;</a></li><li style="width:115px;"><a class="HDR_VERT_LINKOFF" href="http://www.germainervsales.com/inventory/used" target="_self"><nobr>Inventory</nobr>&nbsp;</a></li><li style="width:120px;"><a class="HDR_VERT_LINKOFF" href="http://www.germainervsales.com/financeapp.asp" target="_self"><nobr>Financing</nobr>&nbsp;</a></li><li style="width:105px;"><a class="HDR_VERT_LINKOFF" href="http://www.rvrenovators.com/"+target="new" target="_blank"><nobr>Service</nobr>&nbsp;</a><div><div style="width:100px;"><ul><li style="height:100%;"><a style="height:auto;" href="http://www.rvrenovators.com/" target="_blank">Service &nbsp;</a></li><li style="height:100%;"><a style="height:auto;" href="http://www.germainervsales.com/parts_01.asp" target="_self">Parts Request&nbsp;</a></li></ul></div></div></li><li style="width:115px;"><a class="HDR_VERT_LINKOFF" href="http://www.germainervsales.com/aboutus.asp" target="_self"><nobr>Dealer Info</nobr>&nbsp;</a><div><div style="width:100px;"><ul><li style="height:100%;"><a style="height:auto;" href="http://www.germainervsales.com/aboutus.asp" target="_self">About Us&nbsp;</a></li><li style="height:100%;"><a style="height:auto;" href="http://www.germainervsales.com/map_hours.asp" target="_self">Directions/Hours&nbsp;</a></li></ul></div></div></li><li style="width:105px;"><a class="HDR_VERT_LINKOFF" href="http://www.germainervsales.com/event_calendar.asp" target="_self"><nobr>Fun Stuff</nobr>&nbsp;</a><div><div style="width:100px;"><ul><li style="height:100%;"><a style="height:auto;" href="http://www.germainervsales.com/customer_survey.asp" target="_self">Customer Survey&nbsp;</a></li><li style="height:100%;"><a style="height:auto;" href="http://www.germainervsales.com/testimonials_display2.asp" target="_self">Testimonials&nbsp;</a></li><li style="height:100%;"><a style="height:auto;" href="http://www.germainervsales.com/guestbook.asp" target="_self">Guest Book</a></li></ul></div></div></li><li style="width:93px;"><a class="HDR_VERT_LINKOFF" href="http://www.germainervsales.com/contact_us.asp" target="_self"><nobr>Contact Us</nobr>&nbsp;</a></li></ul><div style="clear:left;"></div></div></div></div></div>
+<SCRIPT LANGUAGE="javascript">
+list7 = true
+function imenus_data1(){
+this.enable_visual_design_mode = false
+this.main_is_horizontal = true
+this.menu_showhide_delay = 200
+this.menu_show_delay = 0
+this.menu_hide_delay = 200
+this.main_container_styles = "border-style:none;border-color:#000000;border-width:1px; padding:0px 0px 0px 0px; "
+this.main_item_styles = "color:White; text-align:LEFT;font-family:Arial;font-size:10pt; font-weight:bold; text-decoration:none;padding:0px 0px 0px 0px; border-style:none;width:0px;"
+this.main_item_hover_styles = "color:Tan;"
+this.main_item_active_styles = "color:Tan;text-decoration:none;"
+this.subs_container_styles = "background-color:White;border-style:solid;border-color:#e3e1e4;border-width:1px 2px 2px 2px;padding:0px 0px 0px 0px;width:124px; "
+this.subs_item_styles = "background-image:none;background-color:White;color:Black; text-align:left; font-size:8pt;font-family:Arial;font-weight:bold; text-decoration:none; padding:2px 0px 2px 5px;border-style:solid;border-color:e3e1e4;border-width:1px 0px 0px 0px;width:120px;"
+this.subs_item_hover_styles = "background-color:Black;color:White;width:120px;"
+this.subs_item_active_styles = "text-decoration:none;background-color:Black;color:White;width:120px;"
+}
+</SCRIPT>
+<SCRIPT LANGUAGE="javascript" SRC="http://www.powersportsnetwork.com/dealersite/imenus_code.js"></SCRIPT>
+</TD>
+			</TR>
+		</TABLE>
+	</TD>
+</TR>
+<TR>
+	<TD WIDTH="100%" HEIGHT="100%" align="center" BACKGROUND="">
+		<TABLE WIDTH="788" BORDER="0" CELLPADDING="0" CELLSPACING="0" HEIGHT="100%">
+			<TR>
+				<TD VALIGN="TOP" HEIGHT="100%" WIDTH="788" style="background:url('http://cdn-1.psndealer.com/e2/dealersite/images/germainervsales/content_788.jpg') repeat-y;" BGCOLOR="3c281d">
+					<!--CENTER CONTENT AREA-->
+					
+					<TABLE BORDER="0" CELLPADDING="3" CELLSPACING="0" WIDTH="100%" HEIGHT="100%">
+						<TR><TD VALIGN="TOP" WIDTH="100%"><div style="padding:10px 10px 20px 10px"><font class="content_header_text">
+    Directions and Hours - We Serve The Phoenix Arizona area.</font><br><hr size="3" color=e3e1e4><table width="100%"><tr><td><img src="http://cdn-1.psndealer.com/e2/dealersite/images/germainervsales/directions396.jpg" border="0" width="396" align="Left" alt="We are located in Mesa, AZ - We have new &amp; used fifth wheels, travel trailers by Coachmen, Fleetwood and Tiffin! " title="We are located in Mesa, AZ - We have new &amp; used fifth wheels, travel trailers by Coachmen, Fleetwood and Tiffin! "><font face="Arial" size="2" color="White">
+  <h1><font size="2"><br><br>Mesa, Arizona New &amp; Used RV Sales, Service and Consignment</font></h1>Germaine RV Sales is a full service RV dealer located in Mesa, Arizona, just outside of <a href="/custompage.asp?pg=Phoenix" class="dealer_default_inverted_link">Phoenix</a>, AZ.  We are also happy to serve our neighbors in <a href="/custompage.asp?pg=Tucson" class="dealer_default_inverted_link">Tucson</a> and <a href="/custompage.asp?pg=Flagstaff" class="dealer_default_inverted_link">Flagstaff, AZ</a>, <a href="/custompage.asp?pg=LosAngeles" class="dealer_default_inverted_link">Los Angeles, CA,</a><a> </a><a href="/custompage.asp?pg=Albuquerque" class="dealer_default_inverted_link">Albuquerque, NM</a><a>, and </a><a href="/custompage.asp?pg=Denver" class="dealer_default_inverted_link">Denver, CO</a><a>.  As a full service RV dealership we offer</a>&nbsp;<a href="http://www.germainervsales.com/inventory/used" class="dealer_default_inverted_link">used</a> RVs, fifth wheels, Class C and class A motorhomes for sale.<br><br><br>We are a dealer that offers &nbsp;RV sales, RV <a class="dealer_default_inverted_link" href="http://www.germainervsales.com/parts_01.asp" target="" title="">service</a>, financing and consignment options. Call us toll free <strong>888-766-4703</strong> or <a href="/contact_us.asp" class="dealer_default_inverted_link">email us</a> in Arizona today!  		    
+</font></td></tr><tr><td></td></tr></table>
+<center>
+<table width="300" bordercolor="e3e1e4" border="3">
+	<tr><td class="table_header" bgcolor="000000" colspan="2" align="center"><font size="4">STORE HOURS</font></td></tr>
+	<tr><td align="center"><font class="content_detail_text">Monday</font></td><td align="center"><font class="content_detail_text">8:00AM - 5:00PM</font></td></tr>
+	<tr><td align="center"><font class="content_detail_text">Tuesday</td><td align="center"><font class="content_detail_text">8:00AM - 5:00PM</font></td></tr>
+	<tr><td align="center"><font class="content_detail_text">Wednesday</td><td align="center"><font class="content_detail_text">8:00AM - 5:00PM</font></td></tr>
+	<tr><td align="center"><font class="content_detail_text">Thursday</td><td align="center"><font class="content_detail_text">8:00AM - 5:00PM</font></td></tr>
+	<tr><td align="center"><font class="content_detail_text">Friday</td><td align="center"><font class="content_detail_text">8:00AM - 5:00PM</font></td></tr>
+	<tr><td align="center"><font class="content_detail_text">Saturday</td><td align="center"><font class="content_detail_text">9:00AM - 12:00PM</font></td></tr>
+	<tr><td align="center"><font class="content_detail_text">Sunday</td><td align="center"><font class="content_detail_text">Closed</font></td></tr>
+</table>
+</center>
+<p align="center">
+	<font class="dealer_default_text"><strong>Germaine RV Sales</strong></font><br>
+	<font class="dealer_default_text"><strong>2145 E. Main Street Mesa AZ 85213</strong></font><br>
+	<font class="dealer_default_text"><strong>Phone: 480-222-4660</strong></font>
+	
+	    <font class="dealer_default_text"><strong>Fax: 480-833-3456</strong></font><br>
+	
+		<font class="dealer_default_text"><strong>Toll Free Phone: 602-463-9876(cell)</strong></font>
+	
+</p>
+<p align="center">
+	
+		<a href="https://maps.google.com/maps?hl=en&tab=ml"></a>
+		
+	<BR>
+	<font face="Arial" size="2" color="White"><iframe style="border:3px #e3e1e4 solid" width="580" height="450" frameborder="450"
+
+src="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=2145+E.+Main+Street+Mesa+AZ+85213&aq=&sll=33.415342,-111.784587&sspn=0.006672,0.009645&g=2145+E.+Main+Street+Mesa+AZ+85213&ie=UTF8&hq=&hnear=2145+E+Main+St,+Mesa,+Arizona+85213&t=m&ll=33.424851,-111.78503&spn=0.050145,0.072956&z=13&iwloc=A&output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=2145+E.+Main+Street+Mesa+AZ+85213&aq=&sll=33.415342,-111.784587&sspn=0.006672,0.009645&g=2145+E.+Main+Street+Mesa+AZ+85213&ie=UTF8&hq=&hnear=2145+E+Main+St,+Mesa,+Arizona+85213&t=m&ll=33.424851,-111.78503&spn=0.050145,0.072956&z=13&iwloc=A" target="new" class="dealer_default_inverted_link"><br><center>View Larger Map</a></center>
+</font></div></TD></TR>
+					</TABLE>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN="BOTTOM" BACKGROUND="http://cdn-1.psndealer.com/e2/dealersite/images/germainervsales/content_image_both.jpg" BGCOLOR="3c281d"></TD>
+			</TR>
+		</TABLE>
+	</TD>
+</TR>
+<TR>
+	<TD WIDTH="100%" align="center" BACKGROUND="">
+		<TABLE WIDTH="788" HEIGHT="35  " BORDER="0" CELLPADDING="0" CELLSPACING="0" BACKGROUND="http://cdn-1.psndealer.com/e2/dealersite/images/germainervsales/footer_image_both.jpg">
+			<TR>
+				<TD WIDTH="178" VALIGN="BOTTOM"><a target="PSN" href="http://www.rvwebservices.com/miscpage_002.asp"><IMG SRC="http://cdn-1.psndealer.com/e2/dealersite/images/spacer.gif" border="0" width="147" height="20"></A></TD>				<TD WIDTH="422" VALIGN="BOTTOM" ALIGN="CENTER">
+					<TABLE BORDER="0" WIDTH="100%" HEIGHT="100%">
+					<TR><TD WIDTH="100%" ALIGN="CENTER" VALIGN="BOTTOM">
+					<A href="http://www.germainervsales.com/policy.asp"><font color="White" size="1" face="Arial">Policies</font></A> <font color="White" size="1">|</font> 
+					<A HREF="javascript:void(0)" onClick="javascript:window.open('http://www.germainervsales.com/privacy.asp?dealername=Germaine+RV+Sales&dealertype=1', 'FeaturesWindow', 'width=600,height=400,left=1,top=1,toolbar=no,location=no,menubar=no,directories=no,status=no,scrollbars=yes,resizable=yes');"><font color="White" size="1" face="Arial">Privacy</font></A> <font color="White" size="1">|</font> 
+				<A HREF="javascript:void(0)" onClick="javascript:window.open('http://www.germainervsales.com/terms.asp?dealername=Germaine+RV+Sales&dealertype=1', 'FeaturesWindow', 'width=600,height=400,left=1,top=1,toolbar=no,location=no,menubar=no,directories=no,status=no,scrollbars=yes,resizable=yes');"><font color="White" size="1" face="Arial">Terms &amp; Conditions</font></A> <font color="White" size="1">|</font> 
+					<A HREF="javascript:void(0)" onClick="javascript:window.open('http://www.germainervsales.com/disclaimer.asp?dealername=Germaine+RV+Sales', 'FeaturesWindow', 'width=600,height=400,left=1,top=1,toolbar=no,location=no,menubar=no,directories=no,status=no,scrollbars=yes,resizable=yes');"><font color="White" size="1" face="Arial">Disclaimer</font></A> <font color="White" size="1">|</font> <A href="http://www.germainervsales.com/site_map.asp"><font color="White" size="1" face="Arial">Site Map</font></A>
+					 </TD></TR>
+					<!-- Here's the footer height -->
+					<TR><TD WIDTH="100%" HEIGHT="1"></TD></TR>
+					</TABLE>
+				</TD>
+				<TD WIDTH="178"></TD>
+			</TR>
+		</TABLE>
+	</TD>
+</TR>
+</TABLE>
+<div></div>
+</BODY>
+</HTML>

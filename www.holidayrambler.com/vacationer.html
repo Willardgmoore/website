@@ -1,0 +1,1185 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Holiday Rambler Vacationer</title>
+	<meta name="generator" content="BBEdit 10.5" />
+	<link rel="stylesheet" href="css/reset.css" type="text/css" />
+<link rel="stylesheet" href="css/hr.css" type="text/css" />
+<link rel="stylesheet" href="css/jquery.reject.css" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Mr+Dafoe%7CMontserrat:400,700%7CRaleway:400,500,600' rel='stylesheet' type='text/css'>
+
+<!--http://www.impressivewebs.com/loading-different-jquery-version-ie6-8/-->
+
+<!--[if lt IE 9]>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<![endif]-->
+<!--[if gte IE 9]><!-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<!--<![endif]-->
+
+
+<script type="text/javascript" src="http://ws.aimbase.com/Scripts/awa.js" id="AimbaseAnalytics" data-clientId="ARG"></script>
+<script src="js/hr.js"></script>
+<script src="js/jquery.reject.js"></script>
+<!--<meta name="viewport" content="width=device-width,initial-scale=1">-->
+<!--http://www.quirksmode.org/blog/archives/2013/10/more_about_scal.html-->
+<meta id="hrViewport" name="viewport" content="initial-scale=1">
+<script>
+//http://www.quirksmode.org/blog/archives/2011/06/dynamically_cha.html
+//on narrow devices make the viewport 768, which is same as iPad portrait. 640 will take care of iPhone 4s landscape
+if (screen.width <= 640) {
+	var mvp = document.getElementById('hrViewport');
+	mvp.setAttribute('content','width=768');
+}
+</script>
+	<link rel="stylesheet" href="css/tile.css" type="text/css" />
+	<script type="text/javascript">
+		var featuresShown=false
+
+		$(document).ready(function(){
+			$("#UserUid").val(Aimbase.Analytics.GetUserUid());
+			$("#SessionUid").val(Aimbase.Analytics.GetSessionUid());
+			getModel('vacationer','36DBT')
+
+			
+				$(".expandTiles").click(function() {
+					getTiles('vac')
+				});
+			
+				$(".featureGroups .featureCategory:first").addClass("fcatOn");  //turns on INTERIOR
+				$(".featureGroups > a.fgLink:first").addClass("fcOn"); //turns on first feature group link
+				$(".featureGroup:first").show(); //turns on first feature group
+				$(".showFeatures:first").show(); //turns on first "see all amenities"
+			
+		
+		});	
+		
+		function getModel(b,m) {
+			//http://stackoverflow.com/questions/9337220/jquery-load-with-fadein-effect
+			$('#currentModel').fadeOut(250, function(){
+				$('#currentModel').load("/brand/getModel.asp",{b:b,m:m}, function(){
+					$('#currentModel').fadeIn(100);
+				});
+			});
+
+
+			$(".modelLink").removeClass("modelLinkOn");
+			$("#mLink"+m).addClass("modelLinkOn");
+		}
+		
+	</script>
+	<style type="text/css">.productBG { background: url("product/vac_heroBG.jpg") no-repeat;	}
+		.productTextBox { background: rgba(0,0,0,.5); padding: 30px; top: 10%; left: 2%; }
+		#currentModel { min-height: 740px; }
+		.auglx { max-width: 440px; display: block; position: absolute; bottom:30px; left: 25px; }
+	</style>
+ </head>
+<body>
+
+		<div class="topTextNav clearfix" id="theTop">
+		<div class="topTextNavLinks">
+			<a href="partsandservice/index.html">Parts & Service</a>
+			<a href="locate/index.html">Dealer Locator</a>
+			<a href="owners/index.html">Owners Center</a>
+			<a href="contact/index.html">Contact Us</a>
+		</div>
+		<a href="index.html" class="hrLogo"><img src="nav/hrLogo@2x.png" width="122" height="101" alt="Holiday Rambler"></a>
+	</div>
+
+	<div id="topNav" class="makeItWebkitSticky">
+		<a href="vacationer.html#theTop" class="fixedNavLogoBox"><div class="fixedNavLogo"></div></a>
+		<div class="topNavLinks clearfix">
+			<a href="ambassador.html" class="topNavLink ">AMBASSADOR</a>
+			<a href="vacationer.html" class="topNavLink topNavLinkOn">VACATIONER</a>
+			<a href="admiral.html" class="topNavLink ">ADMIRAL</a>
+			<a href="augusta.html" class="topNavLink ">AUGUSTA</a>
+			<!--<a href="/augusta" class="topNavLink ">AUGUSTA</a>
+			<a href="owners/index.html" class="topNavLink ">OWNERS CENTER</a>-->
+		</div>
+		<div class="brandNav">
+			<div class="centerBrandNav">
+			<a href="vacationer.html#gallery" id="galleryNav">Gallery</a>
+			<a href="vacationer.html#floorplan" id="floorplanNav">Floor Plans</a>
+			<a href="vacationer.html#features" id="featuresNav">Features</a><a href="vacationer.html#decor" id="decorNav">D&eacute;cor</a>
+			<a href="vacationer.html#buyer" id="buyerNav">Brochures</a>
+			<a href="build/vacationer.html" class="byo" onClick="localStorage.clear()">Build Your Own</a>
+			<div class="productVideoClose" onClick="closeProductVideo()">CLOSE VIDEO</div>
+			<a href="vacationer.html#theTop" class="backToTop"><img src="nav/toTop.svg" width="20" height="20"></a>
+			</div>
+		</div><!--brandNav-->
+	</div><!--topNav-->
+
+
+	<div class="productVideoBox">
+		<!--src is in js-->
+		<iframe class="productVideo" width="100%" height="100%" src="" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+
+<div class="productBG">
+	<div class="productTextBox">
+		<div class="productModelYear">2016 Vacationer</div>
+		<!--<div class="productBrand">VACATIONER</div>-->
+		<div class="productText">With a long tradition of providing value and all the comforts of home to families and those seeking life’s greatest adventures, the 2016 Vacationer offers innovative, flexible floor plan designs that maximize interior space. The Vacationer is all you need for a weekend getaway or a full-time RV experience.</div>
+	</div>
+	
+		<div class="rtp_playVideo" onClick="productVideo('TGwhuAnBSus')">2015 Vacationer Video</div>
+	
+</div><!--productBG-->
+
+<div class="main">
+	<h5 id="gallery">Vacationer Gallery</h5>
+
+	<div class="tiles clearfix">
+		
+		<div class="tile w100 tHero vac_FrontToBack"></div>
+		<div id="restOfTheTiles"></div>
+	</div><!--tiles-->
+
+	<div class="expandTilesRule">
+		<div class="expandTiles">EXPAND GALLERY</div>
+	</div>
+</div><!--main-->
+
+<!--floor plan and specs-->
+<div class="contentWhite">
+	<div class="centerContainer">
+		<h5 id="floorplan" class="h5OnWhite">Vacationer Floor Plans</h5>
+		<div class="allModels clearfix">
+			
+				<div class="modelLink modelLinkOn" style="width: 50%" id="mLink36DBT" onClick="getModel('vacationer','36DBT')">36DBT</div>
+			
+				<div class="modelLink " style="width: 50%" id="mLink36SBT" onClick="getModel('vacationer','36SBT')">36SBT</div>
+			
+		</div>
+		
+		<div class="fpBox" style="min-height: 930px;">
+			<div id="currentModel">		</div><!--currentModel-->
+		</div>
+
+	</div><!--centerContainer-->	
+</div><!--contentWhite-->	
+
+<!--Features-->	
+
+<h5>Features</h5>
+<div class="featuresBG">
+	<div class="main wide" id="features">
+		<div class="allFeatures clearfix">
+			<div class="featureGroups">
+				
+					<div class="featureCategory" id="fc9">Interior</div>
+					
+					<a href="vacationer.html#fgb" class="fgLink" id="fgl45" onClick="chooseGroup(45,9)">Interior - Throughout</a>
+				
+					<a href="vacationer.html#fgb" class="fgLink" id="fgl46" onClick="chooseGroup(46,9)">Drivers Convenience</a>
+				
+					<a href="vacationer.html#fgb" class="fgLink" id="fgl48" onClick="chooseGroup(48,9)">Living Room</a>
+				
+					<a href="vacationer.html#fgb" class="fgLink" id="fgl47" onClick="chooseGroup(47,9)">Galley</a>
+				
+					<a href="vacationer.html#fgb" class="fgLink" id="fgl49" onClick="chooseGroup(49,9)">Bedroom</a>
+				
+					<a href="vacationer.html#fgb" class="fgLink" id="fgl50" onClick="chooseGroup(50,9)">Bathroom</a>
+				
+					<a href="vacationer.html#fgb" class="fgLink" id="fgl51" onClick="chooseGroup(51,9)">Safety/Convenience</a>
+				
+					<div class="featureCategory" id="fc10">Exterior</div>
+					
+					<a href="vacationer.html#fgb" class="fgLink" id="fgl52" onClick="chooseGroup(52,10)">Exterior - Throughout</a>
+				
+					<a href="vacationer.html#fgb" class="fgLink" id="fgl53" onClick="chooseGroup(53,10)">Safety/Convenience</a>
+				
+					<a href="vacationer.html#fgb" class="fgLink" id="fgl54" onClick="chooseGroup(54,10)">Body Structure</a>
+				
+			
+			</div><!--featureGroups-->
+		
+			<div class="featureGroupBox" id="fgb">
+				
+				<div class="featureGroup" id="fg45" style="background-image: url('gallery/vac_hrit.jpg')">
+					<div class="featureGroupName">Interior - Throughout</div>
+					<div class="featureGroupDesc">The interior of Holiday Rambler motorhomes offers distinct living zones that maximize and define interior space like no other RV. Whether you're full-time on the road or just planning a weekend getaway here and there, Holiday Rambler lets you define your own adventure. A selection of styles and combinations for interior decor and cabinetry lets you design your motorhome to be your unique home away.</div>
+				</div><!--featureGroup-->
+						<div class="featureList clearfix" id="fl45">
+						<div class="leftFeatures">
+					
+
+					<div class="featureText">10V Gallon Quick Recover Water Heater w/Direct Spark Ignition (Gas & Electric)</div>
+					
+
+					<div class="featureText">12V Water Pump, Demand Operation</div>
+					
+
+					<div class="featureText">25,000/20,000 Btu/h Dual Furnaces (DBT)</div>
+					
+
+					<div class="featureText">25,000/25,000 Btu/h Dual Furnaces (SBT)</div>
+					
+
+					<div class="featureText">50 Amp 120V Distribution Panel w/Energy Management System</div>
+					
+
+					<div class="featureText">Central Vacuum System</div>
+					
+
+					<div class="featureText">Complete PEX Plumbing System</div>
+					
+
+					<div class="featureText">Day/Night Shades</div>
+					
+
+					<div class="featureText">Dual Roof A/C High Efficiency w/Solar Panel, Chill Grills & Bedroom Heat Pumps</div>
+					
+
+					<div class="featureText">Front A/C w/Solar Panel & Chill Grills</div>
+					
+
+					<div class="featureText">Front Power Shades </div>
+					
+							</div><!--leftFeatures-->
+							<div class="rightFeatures">
+							
+
+					<div class="featureText">LED Lighting</div>
+					
+
+					<div class="featureText">Ozite Liner on all Cabinet Shelves</div>
+					
+
+					<div class="featureText">Soft Touch Padded Vinyl Ceiling</div>
+					
+
+					<div class="featureText">Touch Sensor Tank Monitoring System</div>
+					
+
+					<div class="featureText">Washer Dryer Prep</div>
+					
+
+					<div class="featureText">Water Heater By-Pass Valve</div>
+					
+
+					<div class="featureText">Whole House Water Filtration System</div>
+					
+
+					<div class="featureText">Wood Finish Return Air Intake for Furnace</div>
+					
+			<div class="optionDivider">Options</div>
+			
+
+					<div class="featureText">CSA Package (Canadian Specs)</div>
+					
+
+					<div class="featureText">Stacked Washer & Dryer (36DBT)</div>
+					
+
+					<div class="featureText">Washer/Dryer Combo (36SBT)</div>
+					
+
+					<div class="featureText">Washer/Dryer Ready</div>
+					
+							</div><!--rightFeature-->
+							</div><!--Drivers Convenience-->
+							<div class="showFeatures" id="sf45" onClick="showFeatures(45)">See All Amenities</div>
+							
+				<div class="featureGroup" id="fg46" style="background-image: url('gallery/vac_hrdc.jpg')">
+					<div class="featureGroupName">Drivers Convenience</div>
+					<div class="featureGroupDesc">Holiday Rambler motorhomes are designed with driver convenience in mind. Get a clear view of either side of the motorhome with sideview cameras. The auxiliary emergency start assist can be operated using a handy switch located on the dash.</div>
+				</div><!--featureGroup-->
+						<div class="featureList clearfix" id="fl46">
+						<div class="leftFeatures">
+					
+
+					<div class="featureText">Accent Table between Cockpit Seats</div>
+					
+
+					<div class="featureText">Auxiliary Start Switch</div>
+					
+
+					<div class="featureText">Back Up Camera Monitor System</div>
+					
+
+					<div class="featureText">Cruise Control & Tilt Steering Wheel</div>
+					
+
+					<div class="featureText">Dual Dash Fans</div>
+					
+
+					<div class="featureText">Dual Power Driver/ Passenger Shade/Sun Visor</div>
+					
+
+					<div class="featureText">DVD Player</div>
+					
+
+					<div class="featureText">Generator Start Switch</div>
+					
+
+					<div class="featureText">In Dash 7" Touchscreen Stereo with 4 Speakers</div>
+					
+
+					<div class="featureText">Intermittent Windshield Wiper Control</div>
+					
+							</div><!--leftFeatures-->
+							<div class="rightFeatures">
+							
+
+					<div class="featureText">iPod<sup>&reg;</sup> Controls & Bluetooth Hands Free</div>
+					
+
+					<div class="featureText">Remote/Heated Rear-View Mirror w/Turn Signals & Side View Cameras</div>
+					
+
+					<div class="featureText">Six-way Power Driver's Seat</div>
+					
+
+					<div class="featureText">Soft Touch Automotive Dash</div>
+					
+
+					<div class="featureText">Soft-Touch Pilot & Co-Pilot Cockpit Seats w/3-Point Seat Belt</div>
+					
+
+					<div class="featureText">Two Recessed Ceiling Map Lights Above Cockpit Seats</div>
+					
+
+					<div class="featureText">Two Tier Side Cup Holder, Storage Pods & (3) 110V Outlets</div>
+					
+
+					<div class="featureText">USB Port For MP3 Players</div>
+					
+
+					<div class="featureText">Weather Band</div>
+					
+			<div class="optionDivider">Options</div>
+			
+
+					<div class="featureText">32" LED TV</div>
+					
+
+					<div class="featureText">GPS Navigation System </div>
+					
+							</div><!--rightFeature-->
+							</div><!--Living Room-->
+							<div class="showFeatures" id="sf46" onClick="showFeatures(46)">See All Amenities</div>
+							
+				<div class="featureGroup" id="fg48" style="background-image: url('gallery/vac_hrliving.jpg')">
+					<div class="featureGroupName">Living Room</div>
+					<div class="featureGroupDesc">No matter where your journeys take you, Holiday Rambler makes you feel right at home. Spacious slide-outs create more living space and allow for innovative and flexible floor plan design. Beautiful hardwood flat panel cabinet doors with hidden hinges add a quality look throughout the interior.</div>
+				</div><!--featureGroup-->
+						<div class="featureList clearfix" id="fl48">
+						<div class="leftFeatures">
+					
+
+					<div class="featureText">110V Outlet at Dinette</div>
+					
+
+					<div class="featureText">39" LED TV w/Remote</div>
+					
+
+					<div class="featureText">Booth Dinette (36DBT Only)</div>
+					
+
+					<div class="featureText">Home Theater Surround Sound w/Subwoofer</div>
+					
+
+					<div class="featureText">TV Antenna w/Signal Booster</div>
+					
+							</div><!--leftFeatures-->
+							<div class="rightFeatures">
+							
+
+					<div class="featureText">U-Shaped Dinette (36SBT Only)</div>
+					
+
+					<div class="featureText">Wood Grain Laminated Dinette Top</div>
+					
+			<div class="optionDivider">Options</div>
+			
+
+					<div class="featureText">Expandable L-Sofa</div>
+					
+
+					<div class="featureText">Fireplace Under TV (36SBT)</div>
+					
+
+					<div class="featureText">Sectional Sofa (36SBT)</div>
+					
+
+					<div class="featureText">Winegard DSS Antenna/ Dome-Stationary Tracker</div>
+					
+							</div><!--rightFeature-->
+							</div><!--Galley-->
+							<div class="showFeatures" id="sf48" onClick="showFeatures(48)">See All Amenities</div>
+							
+				<div class="featureGroup" id="fg47" style="background-image: url('gallery/vac_hrgalley.jpg')">
+					<div class="featureGroupName">Galley</div>
+					<div class="featureGroupDesc">Prepare delicious meals thanks to a large refrigerator/freezer and three-burner cooktop. The microwave oven features an electronic touch pad and the handy roof vent fan ensures you can clear away any lingering cooking odors.
+</div>
+				</div><!--featureGroup-->
+						<div class="featureList clearfix" id="fl47">
+						<div class="leftFeatures">
+					
+
+					<div class="featureText">50/50 Dual Stainless Steel Galley Sink</div>
+					
+
+					<div class="featureText">Brushed Nickel Accessories</div>
+					
+
+					<div class="featureText">Built-In Storage For Sink & Range Covers</div>
+					
+
+					<div class="featureText">Cabinet Toe Kicks</div>
+					
+
+					<div class="featureText">Convection Microwave w/Oven Built-In Range Hood & Light </div>
+					
+
+					<div class="featureText">Decorative Backsplash</div>
+					
+
+					<div class="featureText">Fan-Tastic<sup>&reg;</sup> Power Roof Vent</div>
+					
+
+					<div class="featureText">Galley Window w/Mini Blinds</div>
+					
+							</div><!--leftFeatures-->
+							<div class="rightFeatures">
+							
+
+					<div class="featureText">Hardwood Cabinetry w/Hidden Hinges</div>
+					
+
+					<div class="featureText">Heavy Duty Ball Bearing Drawer Guides</div>
+					
+
+					<div class="featureText">LED Task Lighting</div>
+					
+
+					<div class="featureText">Recessed 3 Burner Cooktop</div>
+					
+
+					<div class="featureText">Residential Refrigerator w/Icemaker</div>
+					
+
+					<div class="featureText">Solid Surface Kitchen Countertop w/Sink Covers</div>
+					
+
+					<div class="featureText">Under-Galley Shelving & Wastebasket</div>
+					
+			<div class="optionDivider">Options</div>
+			
+
+					<div class="featureText">3 Burner Cook top w/Oven</div>
+					
+
+					<div class="featureText">Freestanding Dinette w/Chairs (36DBT) </div>
+					
+							</div><!--rightFeature-->
+							</div><!--Bedroom-->
+							<div class="showFeatures" id="sf47" onClick="showFeatures(47)">See All Amenities</div>
+							
+				<div class="featureGroup" id="fg49" style="background-image: url('gallery/vac_hrbed.jpg')">
+					<div class="featureGroupName">Bedroom</div>
+					<div class="featureGroupDesc">Restful nights are but a few steps away with a premium queen bed mattress, decorative headboard and reading lights.</div>
+				</div><!--featureGroup-->
+						<div class="featureList clearfix" id="fl49">
+						<div class="leftFeatures">
+					
+
+					<div class="featureText">24" LED TV w/Remote</div>
+					
+
+					<div class="featureText">Bedspread w/Reverse Sham & Decorative Pillow</div>
+					
+
+					<div class="featureText">Decorative Headboard</div>
+					
+
+					<div class="featureText">Full Length Hanging Wardrobe</div>
+					
+							</div><!--leftFeatures-->
+							<div class="rightFeatures">
+							
+
+					<div class="featureText">Queen Pillow Top Mattress 60" x 75" (36SBT)</div>
+					
+
+					<div class="featureText">Queen Pillow Top Mattress 60" x 80" (36DBT)</div>
+					
+
+					<div class="featureText">Under Bed Storage</div>
+					
+			<div class="optionDivider">Options</div>
+			
+
+					<div class="featureText">Computer Workstation (36DBT)</div>
+					
+
+					<div class="featureText">King Memory foam Mattress 72" x 80"</div>
+					
+							</div><!--rightFeature-->
+							</div><!--Bathroom-->
+							<div class="showFeatures" id="sf49" onClick="showFeatures(49)">See All Amenities</div>
+							
+				<div class="featureGroup" id="fg50" style="background-image: url('gallery/vac_hrbath.jpg')">
+					<div class="featureGroupName">Bathroom</div>
+					<div class="featureGroupDesc">The bathroom provides residential-style touches throughout, such as a molded ABS shower tub with surround and a residential-style faucet with a large sink. The bath door features a residential passage lock and towel bars while a skylight provides natural light.</div>
+				</div><!--featureGroup-->
+						<div class="featureList clearfix" id="fl50">
+						<div class="leftFeatures">
+					
+
+					<div class="featureText">Accent Boarder in Bathroom</div>
+					
+
+					<div class="featureText">China Toilet Bowl</div>
+					
+
+					<div class="featureText">Fan-Tastic<sup>&reg;</sup> Power Roof Vent</div>
+					
+
+					<div class="featureText">Glass Shower Enclosure</div>
+					
+							</div><!--leftFeatures-->
+							<div class="rightFeatures">
+							
+
+					<div class="featureText">Neo-Angle w/Glass Door (36SBT Only)</div>
+					
+
+					<div class="featureText">Rectangle Shower w/Glass Door (36DBT Only)</div>
+					
+
+					<div class="featureText">Skylight above Shower</div>
+					
+
+					<div class="featureText">Stainless Steel Lavy Sink</div>
+					
+							</div><!--rightFeature-->
+							</div><!--Safety/Convenience-->
+							<div class="showFeatures" id="sf50" onClick="showFeatures(50)">See All Amenities</div>
+							
+				<div class="featureGroup" id="fg51" style="background-image: url('gallery/vac_hrisc.jpg')">
+					<div class="featureGroupName">Safety/Convenience</div>
+					<div class="featureGroupDesc">Your safety and the safety of your passengers is our top priority. That's why we've designed several standard safety features, including three-point seat belts at the driver and front passenger seats. Smoke and carbon monoxide detectors and GFI circuit protection are included in all Holiday Rambler vehicles.
+</div>
+				</div><!--featureGroup-->
+						<div class="featureList clearfix" id="fl51">
+						<div class="leftFeatures">
+					
+
+					<div class="featureText">120V GFI Protected Circuits</div>
+					
+
+					<div class="featureText">Carbon Monoxide Detector</div>
+					
+
+					<div class="featureText">Centralized Control Monitoring</div>
+					
+
+					<div class="featureText">Egress Window</div>
+					
+							</div><!--leftFeatures-->
+							<div class="rightFeatures">
+							
+
+					<div class="featureText">Fire Extinguisher</div>
+					
+
+					<div class="featureText">LP Gas Detector</div>
+					
+
+					<div class="featureText">Safety Belts Throughout</div>
+					
+
+					<div class="featureText">Smoke Detector</div>
+					
+							</div><!--rightFeature-->
+							</div><!--Exterior - Throughout-->
+							<div class="showFeatures" id="sf51" onClick="showFeatures(51)">See All Amenities</div>
+							
+				<div class="featureGroup" id="fg52" style="background-image: url('gallery/vac_hret.jpg')">
+					<div class="featureGroupName">Exterior - Throughout</div>
+					<div class="featureGroupDesc">Holiday Rambler motorhomes are not only designed for a seamless, beautiful look inside and out, but also with quality engineering that ensures it will be an ideal companion mile after mile.</div>
+				</div><!--featureGroup-->
+						<div class="featureList clearfix" id="fl52">
+						<div class="leftFeatures">
+					
+
+					<div class="featureText">(4) 12V Auxiliary Batteries w/Charge Control</div>
+					
+
+					<div class="featureText">2,000 Watt Pure Sine Inverter</div>
+					
+
+					<div class="featureText">22.5" Aluminum Wheels</div>
+					
+
+					<div class="featureText">25' Sewer Hose</div>
+					
+
+					<div class="featureText">4-Point Automatic Levelers</div>
+					
+
+					<div class="featureText">4-Way Fresh Water Valve</div>
+					
+
+					<div class="featureText">5.5 KW Onan<sup>&reg;</sup> Generator</div>
+					
+
+					<div class="featureText">50 Amp Service</div>
+					
+
+					<div class="featureText">5000 lbs. Trailer Hitch Receiver w/Dual 4 or 7 Pin Connectors</div>
+					
+
+					<div class="featureText">Battery Disconnect Switch</div>
+					
+
+					<div class="featureText">Battery Maintainer</div>
+					
+
+					<div class="featureText">Continuous One-Piece Compartment Seals Side</div>
+					
+
+					<div class="featureText">Drip Molding</div>
+					
+
+					<div class="featureText">Exterior Shower</div>
+					
+
+					<div class="featureText">Fiberglass Wheel Skirts</div>
+					
+
+					<div class="featureText">Full-Body Paint</div>
+					
+
+					<div class="featureText">Gas Lift Strut Supports</div>
+					
+
+					<div class="featureText">Halogen Headlights w/Polycarbonite Lens</div>
+					
+							</div><!--leftFeatures-->
+							<div class="rightFeatures">
+							
+
+					<div class="featureText">Hidden, Stainless Steel Latch Rods</div>
+					
+
+					<div class="featureText">Holding Tank Rinsing System San-T-Flush<sup>&trade;</sup></div>
+					
+
+					<div class="featureText">Insulated Aluminum Luggage Doors w/Single Paddle Latch & Corrosion Resistant Steel</div>
+					
+
+					<div class="featureText">Large One-Piece Bonded-In Windshield</div>
+					
+
+					<div class="featureText">Large, Lighted Toto-Molded Polyethylene Compartments</div>
+					
+
+					<div class="featureText">Lighted Exterior Storage Compartments</div>
+					
+
+					<div class="featureText">Pass-Through Storage</div>
+					
+
+					<div class="featureText">Porch Light</div>
+					
+
+					<div class="featureText">Power Patio Awning</div>
+					
+
+					<div class="featureText">Single-Motor Windshield Wipers w/Wet Arm</div>
+					
+
+					<div class="featureText">Slide-Out Storage Compartments (Living Area Slide-Outs)</div>
+					
+
+					<div class="featureText">Slide-Out Toppers Awnings</div>
+					
+
+					<div class="featureText">Swinging Luggage Doors</div>
+					
+
+					<div class="featureText">Underhood Utility Light</div>
+					
+
+					<div class="featureText">Wiper System w/Large Swept Area</div>
+					
+			<div class="optionDivider">Options</div>
+			
+
+					<div class="featureText">Dual Glazed Windows</div>
+					
+
+					<div class="featureText">Exterior Entertainment Center</div>
+					
+
+					<div class="featureText">Neutral Loss Protection </div>
+					
+
+					<div class="featureText">Protective Front Mask</div>
+					
+							</div><!--rightFeature-->
+							</div><!--Safety/Convenience-->
+							<div class="showFeatures" id="sf52" onClick="showFeatures(52)">See All Amenities</div>
+							
+				<div class="featureGroup" id="fg53" style="background-image: url('gallery/vac_hresc.jpg')">
+					<div class="featureGroupName">Safety/Convenience</div>
+					<div class="featureGroupDesc">Large, high-mounted taillights help ensure those behind you are aware you're slowing or stopping, and the standard hydraulic four-wheel disk brakes with four-wheel anti-lock brakes give you the stopping power you need. 
+</div>
+				</div><!--featureGroup-->
+						<div class="featureList clearfix" id="fl53">
+						<div class="leftFeatures">
+					
+
+					<div class="featureText">4-Wheel ABS </div>
+					
+
+					<div class="featureText">Automotive Safety Glass</div>
+					
+
+					<div class="featureText">Easy-Sweep Flooring at Entry Step</div>
+					
+
+					<div class="featureText">Entry Assist Handle</div>
+					
+
+					<div class="featureText">Entry Door w/Screen Door & Dead Bolt Lock</div>
+					
+
+					<div class="featureText">Exterior TV Hookups</div>
+					
+							</div><!--leftFeatures-->
+							<div class="rightFeatures">
+							
+
+					<div class="featureText">Flush Mount Dual Pane Safety Glass Dark Tinted Windows</div>
+					
+
+					<div class="featureText">Metal Fuel Door w/Lock</div>
+					
+
+					<div class="featureText">Power Entry Step</div>
+					
+
+					<div class="featureText">Rear Ladder</div>
+					
+
+					<div class="featureText">Running Lights</div>
+					
+
+					<div class="featureText">Side-Swing Insulated Storage Compartment Doors</div>
+					
+
+					<div class="featureText">Under-Hood Utility Light</div>
+					
+							</div><!--rightFeature-->
+							</div><!--Body Structure-->
+							<div class="showFeatures" id="sf53" onClick="showFeatures(53)">See All Amenities</div>
+							
+				<div class="featureGroup" id="fg54" style="background-image: url('gallery/vac_hrbs.jpg')">
+					<div class="featureGroupName">Body Structure</div>
+					<div class="featureGroupDesc">Quality built from front to back, top to bottom, Holiday Rambler motorhomes include a one-piece molded fiberglass front end cap. Corrosion-resistant aluminum tube hull framing, Vacu-bond<sup>&reg;</sup> floor and a Vacu-bond hull lamination process all contribute to a solid foundation and durability for years to come.</div>
+				</div><!--featureGroup-->
+						<div class="featureList clearfix" id="fl54">
+						<div class="leftFeatures">
+					
+
+					<div class="featureText">30" Radius Entrance Door</div>
+					
+
+					<div class="featureText">Aluminum Interlocking Floor/Wall/Ceiling Framing</div>
+					
+
+					<div class="featureText">Automatic Hydraulic Leveling Jacks</div>
+					
+
+					<div class="featureText">Electric Patio Awning w/Covers</div>
+					
+
+					<div class="featureText">Front & Rear Fiberglass Molded Caps</div>
+					
+
+					<div class="featureText">Large Chrome Front Grille w/Logo</div>
+					
+
+					<div class="featureText">One-Piece, Bonded Front Windshield</div>
+					
+							</div><!--leftFeatures-->
+							<div class="rightFeatures">
+							
+
+					<div class="featureText">Power Gear Slide-Outs</div>
+					
+
+					<div class="featureText">Radius Roof w/Ducted A/C</div>
+					
+
+					<div class="featureText">TPO Exterior Roof</div>
+					
+
+					<div class="featureText">Undercoating</div>
+					
+
+					<div class="featureText">Vacu-Bond<sup>&trade;</sup> Floors & Ceilings</div>
+					
+
+					<div class="featureText">Vacu-Bond<sup>&trade;</sup> Walls w/Smooth High Gloss Exterior Walls</div>
+					
+
+					<div class="featureText">Wash Out Compartment Drains</div>
+					
+					</div><!--last rightFeature-->
+					</div><!--last one-->
+					<div class="showFeatures" id="sf54" onClick="showFeatures(54)">See All Amenities</div>
+			</div>
+		
+		</div><!--allFeatures-->
+	
+	</div><!--main wide for features-->
+</div><!--featuresBG-->
+
+<h5 id="decor">D&eacute;cor</h5>
+
+<div class="decorBox clearfix">
+			
+			<div id="zf_vac_cappuccino" class="zoomedExt" style="background-image:url('colors/vac_cappuccino_t@2x.jpg')" onClick="$(this).fadeOut(125);$('.decorIntBox').toggle();">
+				<div class="zoomedExtName">Cappucino</div>
+				<div class="minusZoom">&ndash;</div>
+			</div>
+			
+			<div id="zf_vac_gatewayGray" class="zoomedExt" style="background-image:url('colors/vac_gatewayGray_t@2x.jpg')" onClick="$(this).fadeOut(125);$('.decorIntBox').toggle();">
+				<div class="zoomedExtName">Gateway Gray</div>
+				<div class="minusZoom">&ndash;</div>
+			</div>
+			
+			<div id="zf_vac_waterfordII" class="zoomedExt" style="background-image:url('colors/vac_waterfordII_t@2x.jpg')" onClick="$(this).fadeOut(125);$('.decorIntBox').toggle();">
+				<div class="zoomedExtName">Waterford II</div>
+				<div class="minusZoom">&ndash;</div>
+			</div>
+			
+	<div class="decorExtBox">
+		<div class="decorHead">Exterior</div>
+		<div class="decorExteriors">
+			
+			<div class="decorExt clearfix" onClick="zoomExt('vac_cappuccino')">
+				<div class="plusZoom">+</div>
+				<div class="decorExtName">Cappucino</div>
+				<img src="colors/vac_cappuccino_t@2x.jpg" width="100%">
+				
+			</div>
+			
+			<div class="decorExt clearfix" onClick="zoomExt('vac_gatewayGray')">
+				<div class="plusZoom">+</div>
+				<div class="decorExtName">Gateway Gray</div>
+				<img src="colors/vac_gatewayGray_t@2x.jpg" width="100%">
+				
+			</div>
+			
+			<div class="decorExt clearfix" onClick="zoomExt('vac_waterfordII')">
+				<div class="plusZoom">+</div>
+				<div class="decorExtName">Waterford II</div>
+				<img src="colors/vac_waterfordII_t@2x.jpg" width="100%">
+				
+			</div>
+			
+		</div><!--decorExteriors-->
+	</div><!--decorExtBox-->
+	<div class="decorIntBox clearfix">
+		<div class="decorHead">Interior</div>
+		<div class="decorIntBoxInt">
+			
+				<div onClick="zoomFab('vac_gGray')">
+				<div class="decorIntHead">
+					Gateway Gray
+					<div class="plusZoom">+</div>
+				</div>
+				<div class="decorIntItem">
+					<img src="colors/vac_gGray_z.jpg">
+				</div>
+				</div><!--clickable box-->
+			
+				<div onClick="zoomFab('vac_lRetreat')">
+				<div class="decorIntHead">
+					Linen Retreat
+					<div class="plusZoom">+</div>
+				</div>
+				<div class="decorIntItem">
+					<img src="colors/vac_lRetreat_z.jpg">
+				</div>
+				</div><!--clickable box-->
+			
+				<div onClick="zoomFab('vac_wFordII')">
+				<div class="decorIntHead">
+					Waterford II
+					<div class="plusZoom">+</div>
+				</div>
+				<div class="decorIntItem">
+					<img src="colors/vac_wFordII_z.jpg">
+				</div>
+				</div><!--clickable box-->
+			
+		</div><!--decorIntBoxInt-->
+		<div class="decorIntBoxWood" onClick="zoomFab('wood')">
+			<div class="decorIntHead">Wood Trim<div class="plusZoom">+</div></div>
+				<div class="decorAllWood">
+					
+							<img src="colors/wood_gfCherry@2x.jpg">
+							Glazed Fulton Cherry
+							<img src="colors/wood_ghCherry@2x.jpg">
+							Glazed Hillside Cherry
+				</div>
+		</div><!--wood-->
+
+		<!--zoomed images-->
+		
+		<div class="zoomedFabric" id="zf_vac_gGray" style="background-image:url('colors/vac_gGray_z.jpg')" onClick="$(this).fadeOut(125);">
+			<div class="decorIntHead">
+				Gateway Gray
+				<div class="minusZoom">&ndash;</div>
+			</div>
+		</div>
+		
+		<div class="zoomedFabric" id="zf_vac_lRetreat" style="background-image:url('colors/vac_lRetreat_z.jpg')" onClick="$(this).fadeOut(125);">
+			<div class="decorIntHead">
+				Linen Retreat
+				<div class="minusZoom">&ndash;</div>
+			</div>
+		</div>
+		
+		<div class="zoomedFabric" id="zf_vac_wFordII" style="background-image:url('colors/vac_wFordII_z.jpg')" onClick="$(this).fadeOut(125);">
+			<div class="decorIntHead">
+				Waterford II
+				<div class="minusZoom">&ndash;</div>
+			</div>
+		</div>
+		
+		<div class="zoomedFabric" id="zf_wood" onClick="$(this).fadeOut(125);">
+			<div class="decorIntHead">Wood Trim<div class="plusZoom">&ndash;</div></div>
+				<div class="decorAllWood">
+					
+							<img src="colors/wood_gfCherry@2x-short.jpg">
+							Glazed Fulton Cherry
+							<img src="colors/wood_ghCherry@2x-short.jpg">
+							Glazed Hillside Cherry
+				</div>
+		</div>
+	</div><!--decorIntBox-->
+</div>
+
+
+<h5>From Our Customers</h5>
+<div class="testimonialBox">
+	<div class="testRule"></div>
+	<div class="testText">“I knew as soon as I walked into the new Vacationer that this was the motorhome for me. The overall layout, including a spacious kitchen and separate areas, bring all of the comforts of home together. The customer service before and after the sale has just been fantastic. I love my new  Holiday Rambler Vacationer – it drives like a dream.”</div>
+	<div class="testAuthor">Dale Elliott</div>
+</div><!--testimonialBox-->
+
+
+<div class="buyerBox">
+<h5 id="buyer">Brochure Request</h5>
+	<div class="buyerDownloads">
+		<label>Thank you for your interest. You may download the brochures from the links below.</label>
+		<a href="library/2016/2016_vac_f.pdf" target="_blank" class="broDownload" id="broDownload1">2016 Vacationer Brochure</a>
+		<a href="library/2016/2016_vac_wm.pdf" target="_blank" class="broDownload" id="broDownload2">2016 Vacationer Weights and Measurements Flyer</a>
+		<div id="jsonResponse"></div>
+	</div><!--buyerDownloads-->
+	<form name="theBuyerForm" method="post" action="/brand/brochure_post.asp">
+		<div class="buyerFormBox clearfix">
+			<div class="broChoiceError">Please select at least one brochure.</div>
+			<div class="broFormError">Please fill out all the fields below.</div>
+			<label style="text-align: center;">Please provide the following information in order to download one of our product brochures. All fields are required.</label>
+			<div class="buyerFormLeft">
+				<label>First Name</label>
+				<input type="text" name="uFirstName" id="uFirstName">
+				<label>Last Name</label>
+				<input type="text" name="uLastName" id="uLastName">
+				<label>Email</label>
+				<input type="text" name="uEmail" id="uEmail">
+				<label>Would you like email updates from Holiday Rambler?</label>
+				<input type="checkbox" name="promoEmails" value="1" checked id="pe"> <label class="radioLabel" for="pe">Yes, please add me to your mailing list.</label>
+				<label>What is your contact preference?</label>
+				<input type="checkbox" name="contactPreferences" value="Email" checked id="emailOK"> <label class="radioLabel" for="emailOK">Email</label>
+				<input type="checkbox" name="contactPreferences" value="Phone" checked id="phoneOK"> <label class="radioLabel" for="phoneOK">Phone</label>
+				&nbsp;&nbsp;&nbsp;<a href="privacy/index.html">Privacy Policy</a>
+			</div><!--buyerFormLeft-->
+			<div class="buyerFormRight">
+				<label>Phone</label>
+				<input type="text" name="uPhone" id="uPhone">
+				<label>Street Address</label>
+				<input type="text" name="uAddress" id="uAddress">
+				<label>Zip/Postal Code</label>
+				<input type="text" name="uZip" id="uZip">
+				<label>When are you purchasing an RV?</label>
+				<div class="purchasingList" id="purchasingListBox">
+				<input type="radio" name="buyingTimeframe" value="Less than one month" id="pp1"> <label class="radioLabel" for="pp1">Less than one month</label><br />
+				<input type="radio" name="buyingTimeframe" value="Within the next 6 months" id="pp2"> <label class="radioLabel" for="pp2">Within the next 6 months</label><br />
+				<input type="radio" name="buyingTimeframe" value="Within a year" id="pp3"> <label class="radioLabel" for="pp3">Within a year</label><br />
+				<input type="radio" name="buyingTimeframe" value="Within the next few years" id="pp4"> <label class="radioLabel" for="pp4">Within the next few years</label><br />
+				</div>
+			</div><!--buyerFormRight-->
+		</div><!--buyerFormBox-->
+		<div class="selectDownload">Which items would you like to Download?</div>
+		<div class="buyerFormBox brochureChoices clearfix">
+			<div class="brochureBox" onClick="chooseBrochure(1)">
+				Vacationer<span>Brochure</span>
+				<div class="brochureSelectBox">
+					<div class="brochureSelectCircle" id="bs1"></div>
+					<div class="brochureSelectText">Select</div>
+				</div>
+			</div>		
+			<div class="brochureBox"  onClick="chooseBrochure(2)">
+				Weights & Measurements<span>Flyer</span>
+				<div class="brochureSelectBox">
+					<div class="brochureSelectCircle" id="bs2"></div>
+					<div class="brochureSelectText">Select</div>
+				</div>
+			</div>	
+			<div class="brochureBox brochureComingSoon">
+				Chassis<span>Brochure</span>
+				<div class="brochureSelectBox">
+					<div class="brochureSelectText">Coming Soon</div>
+				</div>
+			</div>		
+		</div><!--buyerFormBox-->
+		<div class="buyerFormBox">
+			<a href="vacationer.html#buyer" class="brochureFormSubmit" onClick="brochurePost(1)">Submit</a>
+			<a href="vacationer.html#buyer" class="brochureFormNoThanks" onClick="brochurePost(0)">No thanks, I'd just like to download my selected brochures</a>
+		</div>
+	<input type="hidden" name="bro1" id="bro1" value="0">
+	<input type="hidden" name="bro2" id="bro2"  value="0">
+	<input type="hidden" name="bro3" id="bro3"  value="0">
+	<input type="hidden" name="brandID" id="brandID"  value="29">
+	<input type="hidden" name="brandModelYear" id="brandModelYear"  value="2016">
+	<input type="hidden" name="brandCode" id="brandCode"  value="vac">
+	<input type="hidden" name="UserUid" value="" id="UserUid">
+	<input type="hidden" name="SessionUid" value="" id="SessionUid">
+	</form>
+</div><!--buyerBox-->
+
+<div class="footerTop"></div>
+
+<div id="footer" class="clearfix">
+	<div class="footerCol1">
+		<div class="footerHeader">Vehicles</div>
+		<a href="ambassador.html" class="footerLink">Ambassador</a>
+		<a href="vacationer.html" class="footerLink">Vacationer</a>
+		<a href="admiral.html" class="footerLink">Admiral</a>
+		<a href="augusta.html" class="footerLink">Augusta</a>
+		<div class="footerHeader">Owner Resources</div>
+		<a href="owners/brochures.asp.html" class="footerLink">Brochure Archive</a>
+		<a href="locate/index.html" class="footerLink">Find a Dealer</a>
+		<a href="partsandservice/index.html" class="footerLink">Parts & Service</a>
+	</div>
+	<div class="footerCol2">
+		<div class="footerHeader">Buyer Resources</div>
+		<a href="build/index.html" class="footerLink">Build Your Own</a>
+		<a href="partsandservice/warranty.asp.html" class="footerLink">Warranty</a>
+		<div class="footerHeader">Company</div>
+		<a href="contact/index.html" class="footerLink">Contact</a>
+		<a href="about/index.html" class="footerLink">About Holiday Rambler</a>
+	</div>
+	<div class="footerColDivider"></div>
+	<div class="footerCol3">
+		<div class="footerHeader">Holiday Rambler Offices</div>
+		<div class="footerAddress">
+			1031 US 224 E<br />
+			Decatur, IN 46733<br />
+			(877) 466-6226
+		</div>
+		<a href="https://www.facebook.com/holidayramblerrv"><img src="nav/facebook_circle_color.svg" class="socialIcon"></a>
+	</div>
+</div>
+
+	<div class="copyright">
+		&copy; 2015 <a href="http://alliedrecreationgroup.com">Allied Recreation Group, Inc.</a> All Rights Reserved.&nbsp;&nbsp;&nbsp;<span class="footerLinks"><a href="privacy/index.html">Privacy Statement and Legal Disclaimers</a></span>
+	</div>
+
+
+		
+<script src="js/swipe.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script type="text/javascript">
+	//http://stackoverflow.com/questions/16237953/changing-classes-with-animation-depending-on-scroll-position
+	$(window).scroll(function () {
+		var y = $(this).scrollTop();
+		var ga = 80;
+		var ga = $('#gallery').offset().top - navHeight;
+		var fl = $('#floorplan').offset().top - navHeight;
+		var fe = $('#features').offset().top - navHeight;var de = $('#decor').offset().top - navHeight;
+		var bu = $('#buyer').offset().top - navHeight;
+
+		if (y < ga) { $(".brandNav a").removeClass("brandNavOn");}
+
+			if(y>100) {
+				$(".fixedNavLogoBox").fadeIn();
+				$(".topNavLinks, .centerBrandNav").css({"padding-left":"160px"});
+				// $(".backToTop").fadeIn();
+			} else {
+				$(".fixedNavLogoBox").hide();
+				$(".topNavLinks, .centerBrandNav").css({"padding-left":"0"});
+				// $(".backToTop").hide();
+			}
+
+		if (y >= ga) { $(".brandNav a").removeClass("brandNavOn");   $("#galleryNav").addClass("brandNavOn") 	}
+		if (y >= fl) { $(".brandNav a").removeClass("brandNavOn");   $("#floorplanNav").addClass("brandNavOn") 	}
+		if (y >= fe) { $(".brandNav a").removeClass("brandNavOn");   $("#featuresNav").addClass("brandNavOn") 	}if (y >= de) { $(".brandNav a").removeClass("brandNavOn");   $("#decorNav").addClass("brandNavOn") 	}
+		if (y >= bu) { $(".brandNav a").removeClass("brandNavOn");   $("#buyerNav").addClass("brandNavOn") 	}
+	});
+
+	
+
+	makeSticky();
+
+//http://stackoverflow.com/questions/21010336/jquery-smooth-scrolling-to-link-on-other-page-with-offset
+setTimeout(function() {
+    var hash = location.hash
+    if (hash && $(hash).length) {
+        var target = $(hash).offset().top;
+        //var headerH = $('header').height();
+        $(window).scrollTop(target - 140)
+        /*
+        //or with animate, 
+        //but you'll need to reset the scrollTop to 0 (the top) first:
+        $(window).scrollTop(0);
+        $('html,body').animate({scrollTop:target - headerH}, 1000);
+        */
+    }
+}, 100);
+
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45871429-4', 'holidayrambler.com');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+adroll_adv_id = "HTZGD7PHSZF67BECRY5WPE";
+adroll_pix_id = "Z7XNKDBFFREKDJPRII5PN7";
+(function () {
+var oldonload = window.onload;
+window.onload = function(){
+   __adroll_loaded=true;
+   var scr = document.createElement("script");
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+   scr.setAttribute('async', 'true');
+   scr.type = "text/javascript";
+   scr.src = host + "/j/roundtrip.js";
+   ((document.getElementsByTagName('head') || [null])[0] ||
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+   if(oldonload){oldonload()}};
+}());
+</script>
+</body>
+</html>

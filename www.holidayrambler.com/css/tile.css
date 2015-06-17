@@ -1,0 +1,169 @@
+.tiles {
+	border-left: 10px solid #ffffff;
+	border-right: 10px solid #ffffff;
+	border-bottom: 10px solid #ffffff;
+	background: #ffffff;
+}
+
+.tile {
+	background-color: #262626;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	float: left;
+	border: 10px solid #ffffff;
+	padding: 15px;
+	line-height: 1.5em;
+	transition: opacity .125s ease;
+	color: #d7d7d7;
+}
+
+.modelDecor {
+	position: absolute;
+	padding: 8px;
+	bottom: 0;
+	font-size: 12px;
+	line-height: 1.3em;
+}
+
+.zoom {
+	position: relative;
+}
+
+.zoom:hover {
+	opacity: .8;
+	cursor: pointer;
+	border: 10px solid #ffffff;
+}
+
+.zoomIn, .zoomOut {
+	background-color: #333;
+	background-position: 50%;
+	background-size: 20px;
+	background-image: url("http://www.holidayrambler.com/nav/zoom.svg");
+	background-repeat: no-repeat;
+	width: 36px;
+	height: 36px;
+	position: absolute;
+}
+
+	.zoomIn {
+		right: 0; bottom: 0;
+	}
+
+	.zoomOut {
+		background-image: url("http://www.holidayrambler.com/nav/zoomOut.svg");
+		top: 0; right: 0;
+	}
+
+.zoomed {
+	border: 5px solid #ffffff;
+	width: 100%;
+	float: left;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+.caption {
+	background: rgba(0,0,0,.5);
+	padding: 5px 15px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color:#fff;
+	font-weight: 600;
+	font-size: 12px; font-size: 1.2rem;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	left: 50%;
+	line-height: 1.4em;
+	display: none;
+}
+
+.w10 { width: 10%; }
+.w20 { width: 20%; }
+.w30 { width: 30%; }
+.w40 { width: 40%; }
+.w50 { width: 50%; }
+.w60 { width: 60%; }
+.w70 { width: 70%; }
+.w80 { width: 80%; }
+.w90 { width: 90%; }
+.w100 { width: 100%; }
+
+.t1 { height: 300px; }
+
+.tHero { padding: 0; position: relative;  }
+	.tHero .caption, { left: auto; }
+
+.t2 { height: 600px; }
+
+.vac_FrontToBack { background-image: url("../gallery/VAC_FtoB.jpg"); height:571px; }
+
+.vac_Dash_t { background-image: url("../gallery/vac_Dash_t.jpg"); }
+.vac_PassengerWorkStation_t { background-image: url("../gallery/VAC_PassengerWorkStation_t.jpg"); }
+
+.vac_Dinette_t { background-image: url("../gallery/vac_Dinette_t.jpg") }
+.vac_Galley_t { background-image: url("../gallery/vac_Galley_t.jpg") }
+
+.vac_Galley2_t { background-image: url("../gallery/vac_Galley2_t.jpg") }
+.vac_LSofa_t { background-image: url("../gallery/vac_LSofa_t.jpg") }
+.vac_BuddyChair_t { background-image: url("../gallery/vac_BuddyChair_t.jpg") }
+
+.vac_Bathroom_t { background-image: url("../gallery/vac_Bathroom_t.jpg") }
+.vac_BedroomStorage_t { background-image: url("../gallery/vac_BedroomStorage_t.jpg") }
+.vac_Bedroom_t { background-image: url("../gallery/vac_Bedroom_t.jpg") }
+
+
+.aug_FrontToBack { background-image: url("../gallery/AUG_BacktoFront.jpg"); height:571px; }
+
+.aug_Dash_t { background-image: url("../gallery/aug_Dash_t.jpg"); }
+.aug_Galley_t { background-image: url("../gallery/aug_Galley_t.jpg"); }
+
+.aug_Bathroom_t { background-image: url("../gallery/aug_Bathroom_t.jpg"); }
+.aug_BedStorage_t { background-image: url("../gallery/aug_BedStorage_t.jpg"); }
+.aug_Bedroom_t { background-image: url("../gallery/aug_Bedroom_t.jpg"); }
+
+
+.amb_FrontToBack { background-image: url("../gallery/amb_FtoB.jpg"); height:502px; }
+
+.amb_Cockpit_t { background-image: url("../gallery/amb_Cockpit_t.jpg"); }
+.amb_FrontTable_t { background-image: url("../gallery/amb_FrontTable_t.jpg"); }
+
+.amb_Galley_t { background-image: url("../gallery/amb_Galley_t.jpg"); }
+.amb_Dinette_t { background-image: url("../gallery/amb_Dinette_t.jpg"); }
+.amb_Sofa_t { background-image: url("../gallery/amb_Sofa_t.jpg"); }
+
+.amb_HalfBath_t { background-image: url("../gallery/amb_HalfBath_t.jpg"); }
+.amb_FullBath_t { background-image: url("../gallery/amb_FullBath_t.jpg"); }
+
+.amb_Bedroom_t { background-image: url("../gallery/amb_Bedroom_t.jpg"); }
+.amb_BedStorage_t { background-image: url("../gallery/amb_BedStorage_t.jpg"); }
+
+
+.adm_FrontToBack { background-image: url("../gallery/ADM_FronttoBack.jpg"); height:550px; }
+.adm_Dash { background-image: url("../gallery/adm_Dash.jpg"); height:420px; }
+
+.adm_BacktoFront_t { background-image: url("../gallery/adm_BacktoFront_t.jpg"); }
+.adm_Galley_t { background-image: url("../gallery/adm_Galley_t.jpg"); }
+.adm_Bunkbeds_t { background-image: url("../gallery/adm_Bunkbeds_t.jpg"); }
+
+.adm_Bathroom_t { background-image: url("../gallery/adm_Bathroom_t.jpg"); }
+.adm_Bedroom_t { background-image: url("../gallery/adm_Bedroom_t.jpg"); }
+
+@media (min--moz-device-pixel-ratio: 1.5),
+       (-o-min-device-pixel-ratio: 3/2),
+       (-webkit-min-device-pixel-ratio: 1.5),
+       (min-device-pixel-ratio: 1.5),
+       (min-resolution: 144dpi),
+       (min-resolution: 1.5dppx) {
+ 
+	.vac_FrontToBack { background-image: url("../gallery/VAC_FtoB@2x.jpg"); background-size: cover; }
+	.aug_FrontToBack { background-image: url("../gallery/AUG_BacktoFront@2x.jpg"); background-size: cover; }
+	.amb_FrontToBack { background-image: url("../gallery/ADM_FronttoBack@2x.jpg"); background-size: cover; }
+	.adm_FrontToBack { background-image: url("../gallery/ADM_FronttoBack@2x.jpg"); background-size: cover; }
+
+}
